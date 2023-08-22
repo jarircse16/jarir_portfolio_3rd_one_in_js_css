@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hover-text {
+    margin: 100px auto;
+    text-align: center;
+    font-size: 24px;
+    color: green; /* Normal text color */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.hover-text:hover {
+    color: red; /* Text color on hover */
+}

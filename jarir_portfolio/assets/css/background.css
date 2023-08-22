@@ -1,0 +1,5 @@
+.body {
+    background-image: url('assets/img/admin.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Adjust as needed to control the image size */
+}

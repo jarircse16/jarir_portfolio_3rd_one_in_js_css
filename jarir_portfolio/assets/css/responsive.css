@@ -1,0 +1,80 @@
+/* responsive.css */
+
+/* Common styles for all screen sizes */
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.glow-text {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.contact__button.button {
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.contact__button.button.contact__buttonsx {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+table {
+    font-size: 14px;
+}
+
+/* Responsive styles for smaller screens (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .glow-text {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    label {
+        font-size: 16px;
+        margin-bottom: 5px; /* Reduce margin for better spacing */
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        font-size: 14px; /* Adjust font size for smaller screens */
+        padding: 8px; /* Reduce padding for better spacing */
+        margin-bottom: 10px; /* Adjust margin for better spacing */
+    }
+
+    .contact__button.button {
+        font-size: 16px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .contact__button.button.contact__buttonsx {
+        font-size: 16px;
+        padding: 10px 20px;
+        margin-top: 20px;
+    }
+
+    table {
+        font-size: 12px; /* Adjust font size for smaller screens */
+    }
+}
